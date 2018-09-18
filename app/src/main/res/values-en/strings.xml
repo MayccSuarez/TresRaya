@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="txt_gamer">Gamer %1$d</string>
+    <string name="txt_winner">Winner</string>
+    <string name="txt_draw">It\'s a tie</string>
+    <string name="txt_end_game">Game over</string>
+    <string name="txt_restart_game">Game restarted</string>
+    <string name="txt_new_game">Play again</string>
+</resources>

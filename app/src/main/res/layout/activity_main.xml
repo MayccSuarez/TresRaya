@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/tvGamer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Jugador 1"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        />
+
+    <GridLayout
+        android:id="@+id/gridCells"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            tools:text="X"
+            android:layout_row="0"
+            android:layout_column="0"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn2"
+            tools:text="X"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn3"
+            tools:text="X"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn4"
+            tools:text="X"
+            android:layout_row="1"
+            android:layout_column="0"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn5"
+            tools:text="X"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn6"
+            tools:text="X"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn7"
+            tools:text="X"
+            android:layout_row="2"
+            android:layout_column="0"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn8"
+            tools:text="X"
+            style="@style/BtnStyle"
+            />
+        <Button
+            android:id="@+id/btn9"
+            tools:text="X"
+            style="@style/BtnStyle"
+            />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_new_game"
+        android:layout_margin="40dp"
+        android:visibility="gone"
+        android:theme="@style/RaisedButton"
+        android:onClick="resetGame"
+        />
+
+</LinearLayout>

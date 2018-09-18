@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TresRaya</string>
+    <string name="txt_gamer">Jugador %1$d</string>
+    <string name="txt_winner">Ganador</string>
+    <string name="txt_draw">Es un empate</string>
+    <string name="txt_end_game">Juego terminado</string>
+    <string name="txt_restart_game">Juego reiniciado</string>
+    <string name="txt_new_game">Jugar de nuevo</string>
+</resources>
